@@ -1,0 +1,10 @@
+---
+applications:
+- name: easy-notes
+  memory: 1024M
+  host: letsmakeeasy
+  domain: cfapps.io
+  buildpack: java_buildpack
+  path: target/easy-notes-1.0.0.war
+  services:
+  - mysqldb
